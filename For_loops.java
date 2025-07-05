@@ -132,17 +132,59 @@ class For_loops {
         // System.out.println(rev);
 
         // 17. write a program to Check Whether a Given Number is Prime or Not
-        int n = sc.nextInt();
-        int count = 0;
-        for (int i = 1; i <= n; i++) {
-            if (n % i == 0) {
-                count++;
-            }
-        }
-        if (count <= 2) {
-            System.out.println("Is prime");
-        } else {
-            System.out.println("not prime");
-        }
+        // int n = sc.nextInt();
+        // int count = 0;
+        // for (int i = 1; i <= n; i++) {
+        // if (n % i == 0) {
+        // count++;
+        // }
+        // }
+        // if (count <= 2) {
+        // System.out.println("Is prime");
+        // } else {
+        // System.out.println("not prime");
+        // }
+
+        // 18. Write a program to calculate HCF of Two given number
+        // int dividend = 91, divisor = 31;
+        // int rem, hcf = 0;
+        // do {
+        // rem = dividend % divisor;
+        // if (rem == 0) {
+        // hcf = divisor;
+        // } else {
+        // divisor = rem;
+        // dividend = divisor;
+        // }
+        // } while (rem != 0);
+        // System.out.println(hcf);
+
+        // 19. Write a program to enter the numbers till the user wants and at the end
+        // it should display the count of positive, negative and zeros entered
+        // System.out.println("enter number of input numbers");
+        // int n = sc.nextInt();
+        // System.out.println("enter numbers");
+        // int num;
+        // int postive = 0;
+        // int negitive = 0;
+        // int zero = 0;
+        // for (int i = 0; i <= n; i++) {
+        // num = sc.nextInt();
+        // if (num < 0) {
+        // negitive++;
+        // } else if (num > 0) {
+        // postive++;
+        // } else {
+        // zero++;
+        // }
+        // }
+        // System.out.println("Postive: " + postive + " negitive: " + negitive + " zero:
+        // " + zero);
+
+        // 20. Write a program to enter the numbers till the user wants and at the end
+        // the program should display the largest and smallest numbers entered
+        do {
+
+        } while (option == 'y' && 'Y');
     }
 }
