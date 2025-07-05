@@ -88,8 +88,61 @@ class For_loops {
         // System.out.println("\n" + sum);
 
         // 12. Write a program to print the ASCII values
-        for (int i = 1; i <= 255; i++) {
-            System.out.println((char) i);
+        // for (int i = 1; i <= 255; i++) {
+        // System.out.println((char) i);
+        // }
+
+        // 13. Write a program to find the factorial value of any number
+        // int fact = 1;
+        // for (int i = 1; i <= n; i++) {
+        // fact = fact * i;
+        // }
+        // System.out.print(fact);
+
+        // 14. Write a program to find the value of one number raised to the power of
+        // another
+        // System.out.println("base");
+        // int base = sc.nextInt();
+        // System.out.println("power");
+        // int power = sc.nextInt();
+        // int result = 1;
+        // for (int i = 1; i <= power; i++) {
+        // result *= base;
+        // }
+        // System.out.println(result);
+
+        // 15. write a program to reverse the given Digits
+        // int n = sc.nextInt();
+        // int rem = 0, rev = 0;
+        // while (n > 0) {
+        // rem = n % 10;
+        // rev = rev * 10 + rem;
+        // n = n / 10;
+        // }
+        // System.out.println(rev);
+
+        // 16. write a program to sum of its Digits
+        // int n = sc.nextInt();
+        // int rem = 0, rev = 0;
+        // while (n > 0) {
+        // rem = n % 10;
+        // rev = rev + rem;
+        // n = n / 10;
+        // }
+        // System.out.println(rev);
+
+        // 17. write a program to Check Whether a Given Number is Prime or Not
+        int n = sc.nextInt();
+        int count = 0;
+        for (int i = 1; i <= n; i++) {
+            if (n % i == 0) {
+                count++;
+            }
+        }
+        if (count <= 2) {
+            System.out.println("Is prime");
+        } else {
+            System.out.println("not prime");
         }
     }
 }
